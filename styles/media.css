@@ -1,0 +1,21 @@
+@media (max-width: 375px) {
+    .section {
+        background: url(../images/bg-top.svg) 190px top no-repeat;
+    }
+    .container {
+        max-width: 330px;
+    }
+    .section-cards {
+        display: block;
+    }
+    .card-left, .card-right {
+        border-radius: 8px;
+        max-width: 330px;
+    }
+    .card-center {
+        max-width: 330px;
+    }
+    .card-left, .card-center {
+        margin-bottom: 32px;
+    }
+}
